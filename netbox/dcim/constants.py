@@ -216,8 +216,11 @@ PORT_TYPE_SC_SIMPLEX = 2100
 PORT_TYPE_SC_DUPLEX = 2110
 PORT_TYPE_FC = 2200
 PORT_TYPE_LC = 2300
+PORT_TYPE_LC_SIMPLEX = 2310
 PORT_TYPE_MTRJ = 2400
 PORT_TYPE_MPO = 2500
+PORT_TYPE_LSH = 2600
+PORT_TYPE_LSH_SIMPLEX = 2610
 PORT_TYPE_CHOICES = [
     [
         'Copper',
@@ -233,8 +236,11 @@ PORT_TYPE_CHOICES = [
             [PORT_TYPE_SC_DUPLEX, 'SC (Duplex)'],
             [PORT_TYPE_FC, 'FC'],
             [PORT_TYPE_LC, 'LC'],
+            [PORT_TYPE_LC_SIMPLEX, 'LC (Simplex)'],
             [PORT_TYPE_MTRJ, 'MTRJ'],
             [PORT_TYPE_MPO, 'MPO'],
+            [PORT_TYPE_LSH, 'LSH (E-2000®)'],
+            [PORT_TYPE_LSH_SIMPLEX, 'LSH (Simplex - E-2000® (Simplex))'],
         ]
     ]
 ]
